@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Length Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+
+  <body>
+    <h1>Metric Length Converter</h1>
+    <hr />
+    <p>Please select both units of measurement and enter the value.</p>
+    <div>
+      <p>
+        Original value:
+        <select name="firstUnit" id="unitOne">
+          <option value="milimeter">Milimeter</option>
+          <option value="centimeter">Centimeter</option>
+          <option value="meter">Meter</option>
+          <option value="kilometer">Kilometer</option>
+        </select>
+      </p>
+
+      <p>
+        Value:
+        <input type="number" id="value" placeholder="Enter the Length" />
+      </p>
+
+      <p>
+        New Unit
+        <select name="secondUnit" id="unitTwo">
+          <option value="milimeter">Milimeter</option>
+          <option value="centimeter">Centimeter</option>
+          <option value="meter">Meter</option>
+          <option value="kilometer">Kilometer</option>
+        </select>
+      </p>
+
+      <button id="convert">Convert Measurement</button>
+      <hr />
+      <p id="answer"></p>
+      <p id="image"></p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+html {
+  background-color: rgb(37, 37, 37);
+}
+
+body {
+  background-color: rgb(56, 56, 56);
+  width: 600px;
+  border: 1px solid;
+  padding: 50px 150px 50px;
+  margin: 50px auto;
+  border-radius: 15px;
+  color: lightgray;
+  text-align: center;
+}
+
+select,
+input {
+  background-color: black;
+  color: lightgray;
+}
+
+button {
+  background-color: black;
+  color: lightgray;
+  padding: 5px;
+}
+
+div {
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 20px 50px 50px;
+  background-color: rgb(75, 87, 73);
+}
+
+img {
+  border: 1px solid;
+  border-radius: 10px;
+  text-align: center;
+}
